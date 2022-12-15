@@ -67,6 +67,10 @@ body {
     color: var(--color-secondary);
 }
 
+.header-navigation-menu li a:hover {
+    color: var(--color-button);
+}
+
 .body {
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +123,11 @@ body {
     cursor: pointer;
     letter-spacing: 2px;
     width: fit-content;
+    transition: .2s ease-in;
+}
+
+.main-blog-text-content-button:hover {
+    background-color: var(--color-secondary);
 }
 
 .main-blog-text-title {
@@ -167,6 +176,11 @@ body {
 .main-news-desc h3 {
     margin: 0;
     color: white;
+    cursor: pointer;
+}
+
+.main-news-desc h3:hover {
+    color: var(--color-primary);
 }
 
 .main-news-desc p {
@@ -215,6 +229,11 @@ body {
     font-size: 15px;
     font-weight: bold;
     color: var(--color-secondary);
+    cursor: pointer;
+}
+
+.footer-content-subtitle:hover {
+    color: var(--color-button);
 }
 
 .footer-content-desc {
